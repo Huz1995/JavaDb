@@ -13,7 +13,7 @@ Once the client is running, SQL queries can be entered on the command line. A fu
 ### EXAMPlE
 
 ### Create and use a test database
-CREATE DATABASE markbook;
+CREATE DATABASE markbook; \n
 [OK]
 USE markbook;
 [OK]

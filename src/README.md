@@ -10,9 +10,9 @@ Homebrew SQL database system, built from the ground up. Works with the SQL [Synt
     
 Once the client is running, SQL queries can be entered on the command line. A full breakdown of the syntax is given below..
 
-#EXAMPlE
+### EXAMPlE
 
-// Create and use a test database
+### Create and use a test database
 CREATE DATABASE markbook;
 [OK]
 USE markbook;
@@ -64,7 +64,7 @@ SELECT id FROM actors WHERE name == 'Toni Collette';
 SELECT id FROM actors WHERE name == 'James Caan';
 SELECT id FROM actors WHERE name == 'Emma Thompson';
 CREATE TABLE roles (name, movieID, actorID);
-// Note: ids used in the following four lines are the ones returned by the previous SELECT queries
+### Note: ids used in the following four lines are the ones returned by the previous SELECT queries
 INSERT INTO roles VALUES ('Edward', 3, 1);
 INSERT INTO roles VALUES ('Frank', 1, 3);
 INSERT INTO roles VALUES ('Fiona', 2, 2);

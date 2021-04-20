@@ -131,3 +131,4 @@ JOIN actors AND roles ON id AND actorID;
                           <AttributeName> <Operator> <Value>
 
     <Operator>       ::=   ==   |   >   |   <   |   >=   |   <=   |   !=   |   LIKE
+
